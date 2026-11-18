@@ -25,8 +25,6 @@
    ```
    重启 Claude Desktop，CLI 子进程继承后才全量替换系统提示。
 
-2. **模型必须选 DeepSeek 系**（`DeepSeek V4.1 Flash · routing group` 或固定版）。**GPT/GLM 系与 `WorkBuddy` 安全版对成品恶意软件是权重级拒答**——提示词到顶也没用（实测：GPT-5.6 Terra 答"我是 ChatGPT"；WorkBuddy 版明确"远控木马/键盘记录器我不做"）。
-
 实机验证（DeepSeek + 上述配置）：身份答"我是 D，kaso 的助手"、能力列 16 大类、让它写 webshell/keylogger 真出成品并真编译。
 
 ---
