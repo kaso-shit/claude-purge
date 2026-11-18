@@ -1,0 +1,19 @@
+# 解包产物与依赖：体积大、含第三方版权二进制，不入库（用 npx @electron/asar extract 自行生成）
+app_unpacked/
+node_modules/
+
+# 备份与补丁产物
+*.claude-purge.bak
+*.dshpurge.bak
+*.asar
+*.patched.asar
+*.claude.exe
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 临时/日志
+*.tmp
+*.log
+_thumbs/

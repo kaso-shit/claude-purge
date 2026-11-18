@@ -1,0 +1,19 @@
+{
+  "name": "claude-purge",
+  "version": "2.0.0",
+  "description": "Claude Desktop 破甲补丁引擎（版本自适应）— 特征驱动定位 + 多副本 + 精确/语义双级匹配 + asar 哈希按值回填",
+  "type": "module",
+  "bin": {
+    "claude-purge": "bin/claude-purge.js"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "status": "node bin/claude-purge.js --status",
+    "scan": "node bin/claude-purge.js --scan",
+    "apply": "node bin/claude-purge.js --apply",
+    "revert": "node bin/claude-purge.js --revert",
+    "asar": "node asar-repack.mjs"
+  }
+}
